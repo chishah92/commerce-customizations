@@ -1,0 +1,5 @@
+services:
+  commerce_customizations.custom_order_processor:
+      class: '\Drupal\commerce_customizations\CustomOrderProcessor'
+      tags:
+        - { name: commerce_order.order_processor, priority: 300 }

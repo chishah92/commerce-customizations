@@ -1,0 +1,4 @@
+custom_adjustment:
+  label: Custom Adjustment
+  has_ui: true
+  weight: 0
